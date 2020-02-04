@@ -4,6 +4,7 @@ def map(array)
   for i in array
   new_array.push(i*-1)
 end
+new_array
 end
 
 
