@@ -12,7 +12,7 @@ end
 
 
 
-
+#new_array=[]
 #  for i in array
 #    new_array.push(yield(array[i]))
 #  end
@@ -26,4 +26,11 @@ end
 
 def reduce(array, starting_point = 0)
   
+  value = false 
+  for i in array
+  if i == true 
+    value = true
+  end
+end
+return value
 end
