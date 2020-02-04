@@ -25,7 +25,7 @@ end
 
 
 def reduce(array, starting_point = 0)
-  
+  if 
 
 
 #  total = starting_point
