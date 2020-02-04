@@ -1,6 +1,8 @@
 # Your Code Here
 def map(array)
-  
+  for i in array
+  i*-1
+end
 end
 
 
