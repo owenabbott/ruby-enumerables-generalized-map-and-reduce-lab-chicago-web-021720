@@ -1,7 +1,8 @@
 # Your Code Here
 def map(array)
+  new_array = []
   for i in array
-  i*-1
+  new_array.push(i*-1)
 end
 end
 
