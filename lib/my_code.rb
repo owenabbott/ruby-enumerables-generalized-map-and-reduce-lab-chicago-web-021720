@@ -1,5 +1,5 @@
 # Your Code Here
-"my own map" do [1, 2, 3, 4].map do |h|
+"my own map" do [1, 2, 3, 4].map 
  h * -1
 end
 
