@@ -31,11 +31,11 @@ def reduce(array, starting_point = 0)
   end
 
 return total
-  value = false 
-  for i in array
-  if i == true 
-    value = true
-  end
-end
-return value
-end
+#  value = false 
+#  for i in array
+#  if i == true 
+#    value = true
+#  end
+#end
+#return value
+#end
