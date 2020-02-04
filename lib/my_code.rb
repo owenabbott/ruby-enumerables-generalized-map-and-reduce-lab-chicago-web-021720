@@ -2,7 +2,7 @@
 def map(array)
   new_array = []
   for i in array
-  new_array.push(i * -1)
+  new_array.push(-1 * i)
 end
 new_array
 end
