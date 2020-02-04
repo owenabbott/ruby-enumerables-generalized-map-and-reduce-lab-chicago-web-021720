@@ -25,7 +25,7 @@ end
 
 
 def reduce(array, starting_point = nil)
-  if starting_value = true
+  if starting_value == true
     return starting_value
   end
   value = false 
