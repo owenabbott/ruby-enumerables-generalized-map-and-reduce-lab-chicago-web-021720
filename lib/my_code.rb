@@ -25,13 +25,16 @@ end
 
 
 def reduce(array, starting_point = 0)
-  total = starting_point
-  for i in array
-    total += i
-  end
+  
 
-return total
-end
+
+#  total = starting_point
+#  for i in array
+#    total += i
+#  end
+
+#return total
+#end
 #  value = false 
 #  for i in array
 #  if i == true 
@@ -40,3 +43,5 @@ end
 #end
 #return value
 #end
+
+#alright, now I am very, very confused by all of this.
