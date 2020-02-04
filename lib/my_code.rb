@@ -2,9 +2,8 @@
 def map(array)
   new_array = []
   for i in array
-  new_array.push(-1 * i)
+  yield(array[i])
 end
-new_array
 end
 
 
