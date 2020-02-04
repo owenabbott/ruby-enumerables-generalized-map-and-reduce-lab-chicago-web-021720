@@ -2,9 +2,11 @@
 def map(array)
   new_array = []
   for i in array
-  yield(array[i])
+    new_array.push(yield(array[i]))
+  end
+  return new_array
 end
-end
+
 
 
 def reduce(array, starting_point = 0)
