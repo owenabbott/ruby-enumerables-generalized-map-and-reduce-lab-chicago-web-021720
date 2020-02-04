@@ -24,9 +24,20 @@ end
 
 
 
-def reduce(array, starting_point = 0)
-  if 
-
+def reduce(array, starting_point = nil)
+  if starting_point
+    sum = starting_point
+    i = 0 
+  else
+    sum = array[0]
+    i = 1
+  end
+while i < array.length
+  sum = yield(sum, array[i])
+  i += 1
+end
+sum
+end
 
 #  total = starting_point
 #  for i in array
@@ -44,4 +55,4 @@ def reduce(array, starting_point = 0)
 #return value
 #end
 
-#alright, now I am very, very confused by all of this.
+#alright, now I am very, very confused by all of this. I think I can do it but since there's a walkthrough and I'm behind, I'm just going to go through the walkthrough, complete the lab, and then start it again if I have time before the deadline to get through the precourse lessons.
