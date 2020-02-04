@@ -2,11 +2,23 @@
 def map(array)
   new_array = []
   i = 0 
-  for i in array
+  while i < array.length 
     new_array.push(yield(array[i]))
+    i += 1
   end
-  return new_array
+  new_array
 end
+  
+
+
+
+
+#  for i in array
+#    new_array.push(yield(array[i]))
+#  end
+#  return new_array
+#end
+# saving this code because I'm not sure why it didn't work and might try to revive it later after going through the supplied video walkthrough.
 
 
 
