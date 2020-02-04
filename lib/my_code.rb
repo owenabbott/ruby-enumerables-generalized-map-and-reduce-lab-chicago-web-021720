@@ -29,8 +29,7 @@ def reduce(array, starting_point = 0)
   for i in array
     total += i
   end
-end
-end
+
 return total
   value = false 
   for i in array
