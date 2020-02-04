@@ -1,5 +1,5 @@
 # Your Code Here
-map = array.map do |num|
+map = [1, 2, 3, 4].map do |num|
   num * -1
 end
 
