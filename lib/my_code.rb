@@ -25,7 +25,9 @@ end
 
 
 def reduce(array, starting_point = 0)
-  
+  if starting_value = true
+    return starting_value
+  end
   value = false 
   for i in array
   if i == true 
