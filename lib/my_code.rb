@@ -31,6 +31,7 @@ def reduce(array, starting_point = 0)
   end
 
 return total
+end
 #  value = false 
 #  for i in array
 #  if i == true 
