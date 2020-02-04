@@ -1,5 +1,5 @@
 # Your Code Here
-"my own map" = array.map do |num|
+map = array.map do |num|
   num * -1
 end
 
