@@ -24,7 +24,7 @@ end
 
 
 
-def reduce(array, starting_point = 0)
+def reduce(array, starting_point = nil)
   if starting_value = true
     return starting_value
   end
